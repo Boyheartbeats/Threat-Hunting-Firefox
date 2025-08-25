@@ -30,8 +30,8 @@ DeviceFileEvents
 | where FileName matches regex @"Firefox (Setup|Installer).*\.exe"
 | order by Timestamp desc
 | project Timestamp, DeviceName, ActionType, FileName, FolderPath, SHA256, Account = InitiatingProcessAccountName
-
-<img width="1297" height="443" alt="image" src="https://github.com/user-attachments/assets/7d335c19-6430-4d82-a71b-5ed734d89eb4" />```
+```
+<img width="1297" height="443" alt="image" src="https://github.com/user-attachments/assets/7d335c19-6430-4d82-a71b-5ed734d89eb4" />
 
 
 ### 2. Searched the `DeviceProcessEvents` Table
