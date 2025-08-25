@@ -1,4 +1,6 @@
-# Threat-Hunting-Firefox
+# Threat Hunting Firefox Report
+
+- [Scenario Creation](https://github.com/Boyheartbeats/threat-hunting-scenario-tor/blob/main/threat-hunting-scenario-tor-event-creation.md)
 
 ## Platforms and Languages Leveraged
 - Windows 11 Virtual Machines (Microsoft Azure)  
