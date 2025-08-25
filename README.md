@@ -44,7 +44,7 @@ DeviceProcessEvents
 | where DeviceName == "dbwindowsadmin"
 | where FileName in~ ("firefox.exe") or ProcessCommandLine has "Firefox Setup"
 | project Timestamp, DeviceName, ActionType, FileName, FolderPath, SHA256, ProcessCommandLine, AccountName
-
+```
 <img width="1265" height="542" alt="image" src="https://github.com/user-attachments/assets/5061b5fc-8d88-43b7-ae5a-f26e4dc5f760" />
 
 
@@ -59,7 +59,7 @@ DeviceNetworkEvents
 | where InitiatingProcessFileName == "firefox.exe"
 | project Timestamp, DeviceName, ActionType, RemotePort, RemoteIP, RemoteUrl, InitiatingProcessFileName
 | order by Timestamp desc
-
+```
 <img width="1200" height="923" alt="image" src="https://github.com/user-attachments/assets/fc7cf604-181b-46fa-81ab-48a7c131031e" />
 
 ### 4. File Creation Activity
@@ -77,7 +77,7 @@ DeviceFileEvents
 | where FileName in ("project-data.txt","firefox-exported-bookmarks.html")
 | project Timestamp, DeviceName, ActionType, FileName, FolderPath, InitiatingProcessFileName
 | order by Timestamp desc
-
+```
 
 <img width="1196" height="439" alt="image" src="https://github.com/user-attachments/assets/bcf69d49-2e39-4a71-a179-4869d4f8ac15" />
 
