@@ -70,7 +70,7 @@ DeviceNetworkEvents
 // User created files on Desktop (data staging simulation)
 DeviceFileEvents
 | where FileName in ("project-data.txt","firefox-exported-bookmarks.html")
-
+```
 ## Created By:
 - **Author Name**: Daniel Botomogno
 - **Author Contact**: https://www.linkedin.com/in/daniel-botomogno-fsri-flmi-35992588/ 
