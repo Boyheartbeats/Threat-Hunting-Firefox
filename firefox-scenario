@@ -82,3 +82,15 @@ DeviceFileEvents
 - **Validation Date**:   
 
 
+## Additional Notes:
+- File deletion events were expected but were not observed during the lab execution.  
+- Network activity confirmed that Firefox successfully generated HTTPS traffic.  
+- This lab demonstrates how even non-administrative users can install and use unauthorized browsers, bypassing policy restrictions.  
+
+## Revision History:
+
+| **Version** | **Changes**                  | **Date**          | **Modified By**     |
+|-------------|------------------------------|-------------------|---------------------|
+| 1.0         | Initial Firefox draft report | August 25, 2025   | Daniel Botomogno    |
+
+
